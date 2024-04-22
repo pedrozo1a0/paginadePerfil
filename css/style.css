@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+.nav{
+    margin-top: 0;
+    height: 60px;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#container{
+    height: 1000px;
+    width: 800px;
+    /* background-color: bisque; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 22px;
+}
+.left-side{
+    width: 400px;
+    height: 600px;
+    /* background-color: blue; */
+}
+.right-side{
+    width: 300px;
+    height: 500px;
+    /* background-color: blueviolet; */
+}
+.left-top{
+    height: 350px;
+    width: inherit;
+    /* background-color: rgb(193, 196, 57); */
+    border: 2px solid rgb(122, 122, 122);
+    border-radius: 5px;
+}
+.left-button{
+    margin-top: 25px;
+    /* background-color: brown; */
+    height: 300px;
+    width: inherit;
+    border: 2px solid rgb(122, 122, 122);
+    border-radius: 5px;
+}
+.right-top{
+
+    height: 225px;
+    width: inherit;
+    /* background-color: rgb(35, 219, 65); */
+    border: 2px solid rgb(122, 122, 122);
+    border-radius: 5px;
+}
+.right-button{
+    margin-top: 30px;
+    height: 500px;
+    width: inherit;
+    border: 2px solid rgb(122, 122, 122);
+    border-radius: 5px;
+}
+.top-nav{
+    position: relative;
+    height: 25%;
+    width: inherit;
+    background-color: rgb(81, 162, 216);
+    /* border: 2px solid rgb(14, 193, 199); */
+}
+.content{
+    width: inherit;
+    height: 225px;
+    /* background-color: rgb(179, 107, 169); */
+    
+}
+.jane{
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
+    top: 40px;
+}
+.inTop{
+    color: rgb(240, 240, 240);
+    height: 60px;
+    background-color: rgb(48, 47, 47);
+    border: 2px solid rgb(48, 47, 47);
+}
+.ubication{
+    display: flex;
+    align-items: center;
+    padding: 2px 10px 5px;
+    gap: 8px;
+}
+h2{
+    padding: 90px 10px 5px;
+}
+.map{
+    width: 15px;
+}
+ul{
+    padding: 5px 10px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.gear{
+    width: 15px;
+}
+.connection{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.photo{
+    border-radius: 50%;
+    width: 40px;
+}
+.logo{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+    
+/* .connec{
+    border: 2px solid rgb(185, 184, 184);
+} */
+/* p{
+    align-self: center;
+} */
+.card{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+.card-request {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    /* gap: 65px; */
+}
+.contactContainer{
+    display: flex;
+    gap: 10px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.edit{
+    padding: 10px;
+}
+h3{
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+.info{
+    height:200px;
+    padding: 20px 10px 10px 15px;
+}
+.coding{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.descript{
+    margin-top: 10px;
+}
+span{
+    color: grey;
+}
+.two{
+    border-radius: 80%;
+    background-color: grey;
+    text-align: center;
+    padding: 3px 10px;
+}
+.yourCon{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+}
+.principal{
+    display: flex;
+    gap: 30px;
+    padding-left: 120px;
+}
+label{
+    width: 100px;
+    background-color: rgb(38, 170, 170);
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+}
